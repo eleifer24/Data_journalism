@@ -1,0 +1,8 @@
+
+.axis_label{
+  font-size:14;
+}
+.axis {
+  stroke: #333333;
+  stroke-width: 3
+}

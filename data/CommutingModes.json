@@ -1,0 +1,490 @@
+{
+    "2017-21": {
+        "UHF42": {
+            "Kingsbridge - Riverdale": {
+                "Bicycle_Numbers": "117",
+                "Bicycle_Percent": "0.3",
+                "Car_truck_van_Numbers": "13210",
+                "Car_truck_van_Percent": "32.4",
+                "Public_transportation_Numbers": "19332",
+                "Public_transportation_Percent": "47.4",
+                "Walked_Numbers": "2955",
+                "Walked_Percent": "7.2"
+            },
+            "Northeast Bronx": {
+                "Bicycle_Numbers": "212",
+                "Bicycle_Percent": "0.2",
+                "Car_truck_van_Numbers": "39660",
+                "Car_truck_van_Percent": "43.5",
+                "Public_transportation_Numbers": "40556",
+                "Public_transportation_Percent": "44.5",
+                "Walked_Numbers": "4464",
+                "Walked_Percent": "4.9"
+            },
+            "Fordham - Bronx Pk": {
+                "Bicycle_Numbers": "637",
+                "Bicycle_Percent": "0.6",
+                "Car_truck_van_Numbers": "21636",
+                "Car_truck_van_Percent": "20.1",
+                "Public_transportation_Numbers": "68029",
+                "Public_transportation_Percent": "63.1",
+                "Walked_Numbers": "9080",
+                "Walked_Percent": "8.4"
+            },
+            "Pelham - Throgs Neck": {
+                "Bicycle_Numbers": "577",
+                "Bicycle_Percent": "0.5",
+                "Car_truck_van_Numbers": "48048",
+                "Car_truck_van_Percent": "37.8",
+                "Public_transportation_Numbers": "61334",
+                "Public_transportation_Percent": "48.3",
+                "Walked_Numbers": "7450",
+                "Walked_Percent": "5.9"
+            },
+            "Crotona -Tremont": {
+                "Bicycle_Numbers": "324",
+                "Bicycle_Percent": "0.4",
+                "Car_truck_van_Numbers": "17885",
+                "Car_truck_van_Percent": "21.8",
+                "Public_transportation_Numbers": "52121",
+                "Public_transportation_Percent": "63.5",
+                "Walked_Numbers": "4953",
+                "Walked_Percent": "6"
+            },
+            "High Bridge - Morrisania": {
+                "Bicycle_Numbers": "393",
+                "Bicycle_Percent": "0.5",
+                "Car_truck_van_Numbers": "14309",
+                "Car_truck_van_Percent": "17.6",
+                "Public_transportation_Numbers": "53415",
+                "Public_transportation_Percent": "65.7",
+                "Walked_Numbers": "8008",
+                "Walked_Percent": "9.8"
+            },
+            "Hunts Point - Mott Haven": {
+                "Bicycle_Numbers": "329",
+                "Bicycle_Percent": "0.6",
+                "Car_truck_van_Numbers": "10234",
+                "Car_truck_van_Percent": "19.6",
+                "Public_transportation_Numbers": "32027",
+                "Public_transportation_Percent": "61.3",
+                "Walked_Numbers": "5346",
+                "Walked_Percent": "10.2"
+            },
+            "Greenpoint": {
+                "Bicycle_Numbers": "2618",
+                "Bicycle_Percent": "4.3",
+                "Car_truck_van_Numbers": "7150",
+                "Car_truck_van_Percent": "11.8",
+                "Public_transportation_Numbers": "32126",
+                "Public_transportation_Percent": "53",
+                "Walked_Numbers": "6705",
+                "Walked_Percent": "11.1"
+            },
+            "Downtown - Heights - Slope": {
+                "Bicycle_Numbers": "5039",
+                "Bicycle_Percent": "3.4",
+                "Car_truck_van_Numbers": "13480",
+                "Car_truck_van_Percent": "9.1",
+                "Public_transportation_Numbers": "78141",
+                "Public_transportation_Percent": "52.8",
+                "Walked_Numbers": "16636",
+                "Walked_Percent": "11.2"
+            },
+            "Bedford Stuyvesant - Crown Heights": {
+                "Bicycle_Numbers": "4300",
+                "Bicycle_Percent": "2.6",
+                "Car_truck_van_Numbers": "24712",
+                "Car_truck_van_Percent": "15",
+                "Public_transportation_Numbers": "101290",
+                "Public_transportation_Percent": "61.6",
+                "Walked_Numbers": "9851",
+                "Walked_Percent": "6"
+            },
+            "East New York": {
+                "Bicycle_Numbers": "514",
+                "Bicycle_Percent": "0.6",
+                "Car_truck_van_Numbers": "20775",
+                "Car_truck_van_Percent": "25.8",
+                "Public_transportation_Numbers": "49591",
+                "Public_transportation_Percent": "61.5",
+                "Walked_Numbers": "2953",
+                "Walked_Percent": "3.7"
+            },
+            "Sunset Park": {
+                "Bicycle_Numbers": "1282",
+                "Bicycle_Percent": "2.4",
+                "Car_truck_van_Numbers": "11345",
+                "Car_truck_van_Percent": "20.9",
+                "Public_transportation_Numbers": "28425",
+                "Public_transportation_Percent": "52.4",
+                "Walked_Numbers": "7424",
+                "Walked_Percent": "13.7"
+            },
+            "Borough Park": {
+                "Bicycle_Numbers": "2121",
+                "Bicycle_Percent": "1.6",
+                "Car_truck_van_Numbers": "36945",
+                "Car_truck_van_Percent": "27.6",
+                "Public_transportation_Numbers": "58952",
+                "Public_transportation_Percent": "44",
+                "Walked_Numbers": "19937",
+                "Walked_Percent": "14.9"
+            },
+            "East Flatbush - Flatbush": {
+                "Bicycle_Numbers": "1748",
+                "Bicycle_Percent": "1.2",
+                "Car_truck_van_Numbers": "31817",
+                "Car_truck_van_Percent": "21.7",
+                "Public_transportation_Numbers": "89710",
+                "Public_transportation_Percent": "61.1",
+                "Walked_Numbers": "7259",
+                "Walked_Percent": "4.9"
+            },
+            "Canarsie - Flatlands": {
+                "Bicycle_Numbers": "304",
+                "Bicycle_Percent": "0.3",
+                "Car_truck_van_Numbers": "40027",
+                "Car_truck_van_Percent": "42.4",
+                "Public_transportation_Numbers": "44767",
+                "Public_transportation_Percent": "47.4",
+                "Walked_Numbers": "2998",
+                "Walked_Percent": "3.2"
+            },
+            "Bensonhurst - Bay Ridge": {
+                "Bicycle_Numbers": "1089",
+                "Bicycle_Percent": "1.1",
+                "Car_truck_van_Numbers": "27925",
+                "Car_truck_van_Percent": "29.1",
+                "Public_transportation_Numbers": "47723",
+                "Public_transportation_Percent": "49.7",
+                "Walked_Numbers": "7414",
+                "Walked_Percent": "7.7"
+            },
+            "Coney Island - Sheepshead Bay": {
+                "Bicycle_Numbers": "980",
+                "Bicycle_Percent": "0.8",
+                "Car_truck_van_Numbers": "40604",
+                "Car_truck_van_Percent": "33.2",
+                "Public_transportation_Numbers": "56200",
+                "Public_transportation_Percent": "46",
+                "Walked_Numbers": "11199",
+                "Walked_Percent": "9.2"
+            },
+            "Williamsburg - Bushwick": {
+                "Bicycle_Numbers": "3282",
+                "Bicycle_Percent": "3",
+                "Car_truck_van_Numbers": "17204",
+                "Car_truck_van_Percent": "15.5",
+                "Public_transportation_Numbers": "66689",
+                "Public_transportation_Percent": "60.1",
+                "Walked_Numbers": "9125",
+                "Walked_Percent": "8.2"
+            },
+            "Washington Heights": {
+                "Bicycle_Numbers": "1080",
+                "Bicycle_Percent": "0.8",
+                "Car_truck_van_Numbers": "14398",
+                "Car_truck_van_Percent": "10.7",
+                "Public_transportation_Numbers": "86541",
+                "Public_transportation_Percent": "64.3",
+                "Walked_Numbers": "13542",
+                "Walked_Percent": "10.1"
+            },
+            "Central Harlem - Morningside Heights": {
+                "Bicycle_Numbers": "1352",
+                "Bicycle_Percent": "1.6",
+                "Car_truck_van_Numbers": "7779",
+                "Car_truck_van_Percent": "9.3",
+                "Public_transportation_Numbers": "51887",
+                "Public_transportation_Percent": "62",
+                "Walked_Numbers": "9330",
+                "Walked_Percent": "11.1"
+            },
+            "East Harlem": {
+                "Bicycle_Numbers": "875",
+                "Bicycle_Percent": "2",
+                "Car_truck_van_Numbers": "3606",
+                "Car_truck_van_Percent": "8.1",
+                "Public_transportation_Numbers": "30048",
+                "Public_transportation_Percent": "67.5",
+                "Walked_Numbers": "4618",
+                "Walked_Percent": "10.4"
+            },
+            "Upper West Side": {
+                "Bicycle_Numbers": "3895",
+                "Bicycle_Percent": "3.2",
+                "Car_truck_van_Numbers": "8536",
+                "Car_truck_van_Percent": "7",
+                "Public_transportation_Numbers": "62148",
+                "Public_transportation_Percent": "50.7",
+                "Walked_Numbers": "16009",
+                "Walked_Percent": "13.1"
+            },
+            "Upper East Side": {
+                "Bicycle_Numbers": "1472",
+                "Bicycle_Percent": "1.2",
+                "Car_truck_van_Numbers": "10222",
+                "Car_truck_van_Percent": "8.3",
+                "Public_transportation_Numbers": "60002",
+                "Public_transportation_Percent": "48.8",
+                "Walked_Numbers": "23569",
+                "Walked_Percent": "19.2"
+            },
+            "Chelsea - Clinton": {
+                "Bicycle_Numbers": "3028",
+                "Bicycle_Percent": "3",
+                "Car_truck_van_Numbers": "5345",
+                "Car_truck_van_Percent": "5.3",
+                "Public_transportation_Numbers": "43685",
+                "Public_transportation_Percent": "43",
+                "Walked_Numbers": "26959",
+                "Walked_Percent": "26.5"
+            },
+            "Gramercy Park - Murray Hill": {
+                "Bicycle_Numbers": "1728",
+                "Bicycle_Percent": "2",
+                "Car_truck_van_Numbers": "5890",
+                "Car_truck_van_Percent": "6.8",
+                "Public_transportation_Numbers": "27994",
+                "Public_transportation_Percent": "32.1",
+                "Walked_Numbers": "30524",
+                "Walked_Percent": "35"
+            },
+            "Greenwich Village - SoHo": {
+                "Bicycle_Numbers": "1897",
+                "Bicycle_Percent": "3.8",
+                "Car_truck_van_Numbers": "2941",
+                "Car_truck_van_Percent": "5.9",
+                "Public_transportation_Numbers": "22120",
+                "Public_transportation_Percent": "44.4",
+                "Walked_Numbers": "10257",
+                "Walked_Percent": "20.6"
+            },
+            "Union Square - Lower East Side": {
+                "Bicycle_Numbers": "4950",
+                "Bicycle_Percent": "5.1",
+                "Car_truck_van_Numbers": "6339",
+                "Car_truck_van_Percent": "6.6",
+                "Public_transportation_Numbers": "44995",
+                "Public_transportation_Percent": "46.6",
+                "Walked_Numbers": "22104",
+                "Walked_Percent": "22.9"
+            },
+            "Lower Manhattan": {
+                "Bicycle_Numbers": "429",
+                "Bicycle_Percent": "1.1",
+                "Car_truck_van_Numbers": "1901",
+                "Car_truck_van_Percent": "4.9",
+                "Public_transportation_Numbers": "18600",
+                "Public_transportation_Percent": "47.6",
+                "Walked_Numbers": "9922",
+                "Walked_Percent": "25.4"
+            },
+            "Long Island City - Astoria": {
+                "Bicycle_Numbers": "1901",
+                "Bicycle_Percent": "1.6",
+                "Car_truck_van_Numbers": "17957",
+                "Car_truck_van_Percent": "15.3",
+                "Public_transportation_Numbers": "72309",
+                "Public_transportation_Percent": "61.8",
+                "Walked_Numbers": "6391",
+                "Walked_Percent": "5.5"
+            },
+            "West Queens": {
+                "Bicycle_Numbers": "2095",
+                "Bicycle_Percent": "0.9",
+                "Car_truck_van_Numbers": "56029",
+                "Car_truck_van_Percent": "25",
+                "Public_transportation_Numbers": "131456",
+                "Public_transportation_Percent": "58.8",
+                "Walked_Numbers": "17834",
+                "Walked_Percent": "8"
+            },
+            "Flushing - Clearview": {
+                "Bicycle_Numbers": "493",
+                "Bicycle_Percent": "0.4",
+                "Car_truck_van_Numbers": "55294",
+                "Car_truck_van_Percent": "48.2",
+                "Public_transportation_Numbers": "38394",
+                "Public_transportation_Percent": "33.5",
+                "Walked_Numbers": "11755",
+                "Walked_Percent": "10.3"
+            },
+            "Bayside - Little Neck": {
+                "Bicycle_Numbers": "70",
+                "Bicycle_Percent": "0.2",
+                "Car_truck_van_Numbers": "26762",
+                "Car_truck_van_Percent": "58.9",
+                "Public_transportation_Numbers": "12308",
+                "Public_transportation_Percent": "27.1",
+                "Walked_Numbers": "1647",
+                "Walked_Percent": "3.6"
+            },
+            "Ridgewood - Forest Hills": {
+                "Bicycle_Numbers": "1121",
+                "Bicycle_Percent": "0.8",
+                "Car_truck_van_Numbers": "42691",
+                "Car_truck_van_Percent": "31.4",
+                "Public_transportation_Numbers": "68087",
+                "Public_transportation_Percent": "50",
+                "Walked_Numbers": "7748",
+                "Walked_Percent": "5.7"
+            },
+            "Fresh Meadows": {
+                "Bicycle_Numbers": "77",
+                "Bicycle_Percent": "0.2",
+                "Car_truck_van_Numbers": "21987",
+                "Car_truck_van_Percent": "48.7",
+                "Public_transportation_Numbers": "15705",
+                "Public_transportation_Percent": "34.8",
+                "Walked_Numbers": "2541",
+                "Walked_Percent": "5.6"
+            },
+            "Southwest Queens": {
+                "Bicycle_Numbers": "395",
+                "Bicycle_Percent": "0.3",
+                "Car_truck_van_Numbers": "61307",
+                "Car_truck_van_Percent": "44.8",
+                "Public_transportation_Numbers": "58887",
+                "Public_transportation_Percent": "43",
+                "Walked_Numbers": "5926",
+                "Walked_Percent": "4.3"
+            },
+            "Jamaica": {
+                "Bicycle_Numbers": "315",
+                "Bicycle_Percent": "0.2",
+                "Car_truck_van_Numbers": "65816",
+                "Car_truck_van_Percent": "44.2",
+                "Public_transportation_Numbers": "65492",
+                "Public_transportation_Percent": "44",
+                "Walked_Numbers": "6064",
+                "Walked_Percent": "4.1"
+            },
+            "Southeast Queens": {
+                "Bicycle_Numbers": "295",
+                "Bicycle_Percent": "0.2",
+                "Car_truck_van_Numbers": "102601",
+                "Car_truck_van_Percent": "64.2",
+                "Public_transportation_Numbers": "41082",
+                "Public_transportation_Percent": "25.7",
+                "Walked_Numbers": "3080",
+                "Walked_Percent": "1.9"
+            },
+            "Rockaways": {
+                "Bicycle_Numbers": "416",
+                "Bicycle_Percent": "0.8",
+                "Car_truck_van_Numbers": "27230",
+                "Car_truck_van_Percent": "52",
+                "Public_transportation_Numbers": "17234",
+                "Public_transportation_Percent": "32.9",
+                "Walked_Numbers": "2955",
+                "Walked_Percent": "5.6"
+            },
+            "Port Richmond": {
+                "Bicycle_Numbers": "26",
+                "Bicycle_Percent": "0.1",
+                "Car_truck_van_Numbers": "18396",
+                "Car_truck_van_Percent": "59.3",
+                "Public_transportation_Numbers": "9028",
+                "Public_transportation_Percent": "29.1",
+                "Walked_Numbers": "1332",
+                "Walked_Percent": "4.3"
+            },
+            "Stapleton - St. George": {
+                "Bicycle_Numbers": "280",
+                "Bicycle_Percent": "0.5",
+                "Car_truck_van_Numbers": "28865",
+                "Car_truck_van_Percent": "52",
+                "Public_transportation_Numbers": "19575",
+                "Public_transportation_Percent": "35.2",
+                "Walked_Numbers": "2612",
+                "Walked_Percent": "4.7"
+            },
+            "Willowbrook": {
+                "Bicycle_Numbers": "27",
+                "Bicycle_Percent": "0.1",
+                "Car_truck_van_Numbers": "28163",
+                "Car_truck_van_Percent": "68",
+                "Public_transportation_Numbers": "9041",
+                "Public_transportation_Percent": "21.8",
+                "Walked_Numbers": "786",
+                "Walked_Percent": "1.9"
+            },
+            "South Beach - Tottenville": {
+                "Bicycle_Numbers": "75",
+                "Bicycle_Percent": "0.1",
+                "Car_truck_van_Numbers": "62918",
+                "Car_truck_van_Percent": "68.7",
+                "Public_transportation_Numbers": "19865",
+                "Public_transportation_Percent": "21.7",
+                "Walked_Numbers": "1293",
+                "Walked_Percent": "1.4"
+            }
+        },
+        "Borough": {
+            "Bronx": {
+                "Bicycle_Numbers": "2589",
+                "Bicycle_Percent": "0.4",
+                "Car_truck_van_Numbers": "164218",
+                "Car_truck_van_Percent": "28.4",
+                "Public_transportation_Numbers": "324274",
+                "Public_transportation_Percent": "56.1",
+                "Walked_Numbers": "41772",
+                "Walked_Percent": "7.2"
+            },
+            "Brooklyn": {
+                "Bicycle_Numbers": "24134",
+                "Bicycle_Percent": "2",
+                "Car_truck_van_Numbers": "274494",
+                "Car_truck_van_Percent": "22.3",
+                "Public_transportation_Numbers": "663716",
+                "Public_transportation_Percent": "53.8",
+                "Walked_Numbers": "104403",
+                "Walked_Percent": "8.5"
+            },
+            "Manhattan": {
+                "Bicycle_Numbers": "20706",
+                "Bicycle_Percent": "2.3",
+                "Car_truck_van_Numbers": "67721",
+                "Car_truck_van_Percent": "7.6",
+                "Public_transportation_Numbers": "450560",
+                "Public_transportation_Percent": "50.8",
+                "Walked_Numbers": "167318",
+                "Walked_Percent": "18.9"
+            },
+            "Queens": {
+                "Bicycle_Numbers": "7082",
+                "Bicycle_Percent": "0.6",
+                "Car_truck_van_Numbers": "437872",
+                "Car_truck_van_Percent": "38.9",
+                "Public_transportation_Numbers": "511929",
+                "Public_transportation_Percent": "45.5",
+                "Walked_Numbers": "64864",
+                "Walked_Percent": "5.8"
+            },
+            "Staten Island": {
+                "Bicycle_Numbers": "408",
+                "Bicycle_Percent": "0.2",
+                "Car_truck_van_Numbers": "138342",
+                "Car_truck_van_Percent": "63",
+                "Public_transportation_Numbers": "57509",
+                "Public_transportation_Percent": "26.2",
+                "Walked_Numbers": "6023",
+                "Walked_Percent": "2.7"
+            }
+        },
+        "Citywide": {
+            "New York City": {
+                "Bicycle_Numbers": "54919",
+                "Bicycle_Percent": "1.4",
+                "Car_truck_van_Numbers": "1082647",
+                "Car_truck_van_Percent": "26.8",
+                "Public_transportation_Numbers": "2007988",
+                "Public_transportation_Percent": "49.7",
+                "Walked_Numbers": "384380",
+                "Walked_Percent": "9."
+            }
+        }
+    }
+}

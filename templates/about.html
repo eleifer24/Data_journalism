@@ -1,0 +1,42 @@
+<html>
+
+<!-- <head>
+  <title>Data Journalism Project: Getting around NYC </title>
+</head> -->
+
+{% include 'header.html' %}
+
+<body>
+  {% include 'header.html' %}
+  {% include 'navbar.html' %}
+  <h1>Data Journalism Project: Getting around NYC </h1>
+  <h2>My Data Journalism Project</h2>
+<ul>
+  <li>In my project, I am planning to explore the various ways that New Yorkers move around the city, and to see if I notice trends in the way that people in different boroughs move around. 
+    My dataset contains a record of the number of bicycles and motor vehicles, 
+    as well as the amount of times people use public transportation or walk
+     in different neighborhoods across NYC. My dataset comes from nyc.gov database of Environment and Health Data.  </li>
+</ul>  
+
+<h2>My Data Cleaning Process</h2>
+
+<ol>
+  <li>Delete all rows that do not contain data for 2017-2021 (all rows past row 305)</li>
+  <li>Within the 2017-2021 data, only keep data whose geotag is either UHF42 or borough or citywide</li>
+  <li>Delete the GeoID and GeoRank columns</li>
+  <li>Change column titles so as to remove spaces, parenthesis, commas</li>
+  <li>Use google sheets “custom number formats” to remove commas in numbers with more than three digits.  It is only necessary to apply this command to the “number” columns, and not the “percent” columns(removing these special characters can simplify converting the csv file to the json file)  </li>
+  <li>After manually cleaning the data using google sheets, download the data as a csv file and 
+    then reformat the data into a json file using a python data pipeline</li>
+  <li>Please visit this link to see the code for my data pipeline:</li>
+  <p><a href="https://github.com/eleifer24/data_journalism/blob/1a5b6dead8680a4753eaed705f3aa0d1b3ba0f83/data/format_data.py">
+    Visit my format_data.py!</a></p>
+</ol> 
+<img src="{{url_for('static',filename= 'macro.png')}}" width = 50% >
+<img src="{{url_for('static',filename= 'micro.png')}}" width = 50% >
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+crossorigin="anonymous"></script>
+
+</body>
