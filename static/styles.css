@@ -6,3 +6,32 @@
   stroke: #333333;
   stroke-width: 3
 }
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  width: 45%;
+}
+.image-row {
+  display: flex;
+  justify-content: center; /* this will add equal space between each image */
+}
+
+.margins {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* svg {
+  border: 1px solid blue;
+} */

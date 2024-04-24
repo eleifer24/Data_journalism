@@ -1,26 +1,28 @@
 <html>
-
-<!-- <head>
-  <title>Data Journalism Project: Getting around NYC </title>
-</head> -->
-
-{% include 'header.html' %}
-
 <body>
   {% include 'header.html' %}
   {% include 'navbar.html' %}
-  <h1>Data Journalism Project: Getting around NYC </h1>
-  <h2>My Data Journalism Project</h2>
-<ul>
-  <li>In this project, I am planning to explore the various ways that New Yorkers move around the city, and to see if I notice trends in the way that people in different boroughs move around. 
-    My dataset contains a record of the number of bicycles and motor vehicles, 
-    as well as the amount of times people use public transportation or walk
-     in different neighborhoods across NYC. My dataset comes from nyc.gov database of Environment and Health Data.  </li>
+  <!-- <h1 style="text-align: center;">My Data Journalism Project</h1> -->
+  <h2 class = "margins" style="text-align: center;">How do New Yorkers Commute to Work?</h2>
+<ul class="margins">
+  <li>In this project, I explore the various ways that New Yorkers commute to New York. My goal is to discover which modes of transportation
+    are commonly used in different boroughs and propose some explanation for the trends the data reflect. Possible explanations may include
+    the available infrastructure, the topography, or the the socio-economic status of people in the region. 
+    I also consider the environmental impact of trends that are apparent in the data. 
+    My dataset records the number of people in each of the 5 boroughs of NYC who commute to work using public transportation,
+    motor vehicles, bicycles, or by walking. My dataset comes from nyc.gov database of Environment and Health Data.  </li>
+  <li>Some important vocabulary terms in this infographic include: 
+    <ul>
+      <li>Modes of transportation: a method of traveling from one place to the next</li>
+      <li>Public transportation: the subway, public buses, ferries, etc. </li>
+      <li>Motor Vehicles: examples include cars, trucks, vans </li>
+    </ul>
+  </li>
 </ul>  
 
-<h2>My Data Cleaning Process</h2>
+<h2 style="text-align: center;">Data Cleansing</h2>
 
-<ol>
+<ol class="margins">
   <li>Delete all rows that do not contain data for 2017-2021 (all rows past row 305)</li>
   <li>Within the 2017-2021 data, only keep data whose geotag is either UHF42 or borough or citywide</li>
   <li>Delete the GeoID and GeoRank columns</li>
@@ -32,11 +34,41 @@
   <p><a href="https://github.com/eleifer24/data_journalism/blob/1a5b6dead8680a4753eaed705f3aa0d1b3ba0f83/data/format_data.py">
     Visit my format_data.py!</a></p>
 </ol> 
-<img src="{{url_for('static',filename= 'macro.png')}}" width = 50% >
-<img src="{{url_for('static',filename= 'micro.png')}}" width = 50% >
+
+<p style="text-align: center;"> <strong> Prototypes:</strong></p>
+<div class="image-row">
+  <img src="{{url_for('static',filename= 'macro.png')}}" alt="macro prototype"> 
+  <img src="{{url_for('static',filename= 'micro.png')}}" alt="micro prototype">
+</div>
+
+<p>
+  <ul class="margins">
+    <li> In my prototype for my macro page, I decided to use a map-based infographic because I think having a pictorial 
+      representation of geographic data is a simple, intuitive way of organizing my data that makes sense to
+       viewers. Also, a map-based infographic is particularly helpful for my project because my dataset is 
+       about how people travel to work every day and seeing a map immediately puts viewers
+       in the correct headspace to wonder if some of the trends they see exist due to certain geographic challenges that are specific to different regions.   On my map, 
+       each borough is shaded a different hue of green (as set out in my legend)
+       corresponding to the percent of people who use cars, trucks, and vans to commute to work in that region.  </li>
+    <li> In my prototype for my micro page, I used a bar chart to compare the percent of people 
+      who use different forms of transportation with those who use cars, trucks, and vans and included 
+      some qualitative analysis below the graph to summarize the trends for a specific borough.  
+      Although, I am using percentages as my metric, I decided to use a bar chart rather than a pie chart 
+      because the percentages in my data to do not add up to 100% and I also think 
+      using a bar chart makes differences between amounts that are close to each other easier to identify. </li>
+    <li> The main points of feedback two classmates offered after looking at my prototypes 
+      were that I could provide more a detailed analysis of the trends in each borough beneath the 
+      graph on my micro page and also that I might consider using a pie chart instead of a bar graph.  
+      Moving forward, I think I will include a more specific analysis on my micro page, but I think I will 
+      stick with a bar graph primarily because the percentages for each borough do not sum to 
+      100 unfortunately, and I am not sure what the missing percent indicates. </li>
+  </ul>
+</p>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
 crossorigin="anonymous"></script>
+
+{% include 'footer.html' %}
 
 </body>
