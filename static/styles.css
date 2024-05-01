@@ -1,12 +1,23 @@
+.tickmark {
+  stroke: #333333;
+  stroke-width: 2;
+}
 
 .axis_label{
-  font-size:14;
+  font-size:16;
+  font-weight: bold;
 }
 .axis {
   stroke: #333333;
   stroke-width: 3
 }
 
+.text {
+  /* font-family: 'PT serif'; */
+  text-anchor: middle; 
+  color:#000000;
+  fill:#000000;
+}
 img {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -24,6 +35,21 @@ img {
   margin-right: 80px;
   margin-left: 80px;
 }
+
+.macro_text {
+  margin-top: -20px;
+  /* margin-bottom: 20px; */
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.map_title_margins {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
 
 .container {
   border: 1px solid #ddd;
