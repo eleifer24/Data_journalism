@@ -1,3 +1,15 @@
+
+.fever_line_Average {
+  stroke-width:3;
+  stroke: gray;
+  stroke-dasharray: 10;
+
+}
+.fever_line_Average:hover {
+  stroke: #00ece4;
+}
+
+
 .tickmark {
   stroke: #333333;
   stroke-width: 2;

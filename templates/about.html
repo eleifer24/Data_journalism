@@ -4,7 +4,34 @@
   {% include 'navbar.html' %}
   <!-- <h1 style="text-align: center;">My Data Journalism Project</h1> -->
   <h2 class = "margins" style="text-align: center;">How do New Yorkers Commute to Work?</h2>
-<ul class="margins">
+
+<p class="margins">
+  In this project, I explore the various ways that New Yorkers in each borough commute to work. 
+  My goal is to discover which modes of transportation are commonly used in different boroughs and to see 
+  what patterns arise across the boroughs.  My dataset is composed of the differing amounts of people in 
+  each of the five boroughs who commute to work using public transportation, motor vehicles, bicycles, or by 
+  walking. My dataset comes from nyc.gov database of Environment and Health Data. There are many possible 
+  explanations for why certain modes of transportation in one borough may be more common than in another.  
+  Some explanations may include the available infrastructure, the topography, or the socio-economic status 
+  of people in the region.  Uncovering the actual trends present across New York City (which is what I aim to 
+  do in this project) is the first step to pin pointing and ameliorating inequality across New York City.  
+  In addition, in an era when climate change is on the forefront of the minds of many, this investigation 
+  is particularly relevant in that the widespread use of different modes of transportation 
+  can have serious environmental impact. For example, it is well-know that using motor vehicles 
+  contributes to carbon emissions.  
+</p>
+<p></p>
+<p class="margins">
+  Some important vocabulary terms to know in this investigation: 
+  <ul class="margins">
+    <li>Modes of transportation: a method of traveling from one place to the next</li>
+    <li>Public transportation: the subway, public buses, ferries, etc. </li>
+    <li>Motor Vehicles: examples include cars, trucks, vans </li>
+  </ul>
+</p>
+
+
+<!-- <ul class="margins">
   <li>In this project, I explore the various ways that New Yorkers commute to New York. My goal is to discover which modes of transportation
     are commonly used in different boroughs and propose some explanation for the trends the data reflect. Possible explanations may include
     the available infrastructure, the topography, or the the socio-economic status of people in the region. 
@@ -18,18 +45,22 @@
       <li>Motor Vehicles: examples include cars, trucks, vans </li>
     </ul>
   </li>
-</ul>  
+</ul>   -->
 
-<h2 style="text-align: center;">Data Cleansing</h2>
-
+<h2 style="text-align: center;">The Data Cleansing Process</h2>
+<p class="margins">To transform my data into a usable, easily analyzable format (i.e. "clean" the data), I performed the following steps:</p>
 <ol class="margins">
   <li>Delete all rows that do not contain data for 2017-2021 (all rows past row 305)</li>
   <li>Within the 2017-2021 data, only keep data whose geotag is either UHF42 or borough or citywide</li>
   <li>Delete the GeoID and GeoRank columns</li>
   <li>Change column titles so as to remove spaces, parenthesis, commas</li>
-  <li>Use google sheets “custom number formats” to remove commas in numbers with more than three digits.  It is only necessary to apply this command to the “number” columns, and not the “percent” columns(removing these special characters can simplify converting the csv file to the json file)  </li>
+  <li>Use google sheets “custom number formats” to remove commas in numbers with more than three digits.  It is only necessary to apply this command to the “number” columns, and not the “percent” columns
+    (removing these special characters simplifies converting data in a csv file format to a json file).  </li>
   <li>After manually cleaning the data using google sheets, download the data as a csv file and 
-    then reformat the data into a json file using a python data pipeline</li>
+    then reformat the data into a json file using a python file.
+    Using my python file, I reformatted my data into one large dictionary that 
+    is populated with sub dictionaries.  The key of each sub dictionary is a 
+    location in NYC (for example, “Staten Island”).  </li>
   <li>Please visit this link to see the code for my data pipeline:</li>
   <p><a href="https://github.com/eleifer24/Data_journalism/blob/2494d17cdb602ef5083aecfb1953f4c53b6d7096/data/format_data.py">
     Visit my format_data.py!</a></p>
@@ -43,25 +74,34 @@
 
 <p>
   <ul class="margins">
-    <li> In my prototype for my macro page, I decided to use a map-based infographic because I think having a pictorial 
-      representation of geographic data is a simple, intuitive way of organizing my data that makes sense to
-       viewers. Also, a map-based infographic is particularly helpful for my project because my dataset is 
-       about how people travel to work every day and seeing a map immediately puts viewers
-       in the correct headspace to wonder if some of the trends they see exist due to certain geographic challenges that are specific to different regions.   On my map, 
-       each borough is shaded a different hue of green (as set out in my legend)
-       corresponding to the percent of people who use cars, trucks, and vans to commute to work in that region.  </li>
-    <li> In my prototype for my micro page, I used a bar chart to compare the percent of people 
-      who use different forms of transportation with those who use cars, trucks, and vans and included 
-      some qualitative analysis below the graph to summarize the trends for a specific borough.  
-      Although, I am using percentages as my metric, I decided to use a bar chart rather than a pie chart 
-      because the percentages in my data to do not add up to 100% and I also think 
-      using a bar chart makes differences between amounts that are close to each other easier to identify. </li>
-    <li> The main points of feedback two classmates offered after looking at my prototypes 
-      were that I could provide more a detailed analysis of the trends in each borough beneath the 
-      graph on my micro page and also that I might consider using a pie chart instead of a bar graph.  
-      Moving forward, I think I will include a more specific analysis on my micro page, but I think I will 
-      stick with a bar graph primarily because the percentages for each borough do not sum to 
-      100 unfortunately, and I am not sure what the missing percent indicates. </li>
+    <li> In the prototype for my NYC page (i.e. my “macro” page), I decided to use a map-based infographic 
+      because I think having a pictorial representation of geographic data was a simple way of organizing 
+      my data that intuitively makes sense to viewers. Also, a map-based infographic is particularly helpful 
+      for my project because my dataset is about how people travel to work every day and seeing a map immediately
+       puts viewers in the correct headspace to wonder if some of the trends they see exist due to certain 
+       geographic challenges that are specific to different regions. On my map, each borough is shaded a 
+       different hue of green (as set out in my legend) corresponding to the percent of people who use cars, 
+       trucks, and vans to commute to work in that region.  </li>
+    <li>  In the prototype for each of my borough pages (i.e. the “micro” pages), I used a bar chart to 
+      compare the percent of people who use different forms of transportation with those who use cars, trucks,
+       and vans and included some qualitative analysis below the graph to summarize the trends for a specific 
+       borough. Although, I am using percentages as my metric, I decided to use a bar chart rather than a pie 
+       chart because the percentages in my data for each borough do not add up to 100%, and I also think using 
+       a bar chart makes differences between close amounts easier to identify. </li>
+    <li> The main points of feedback two classmates offered after looking at my prototypes were that I 
+      could provide more a detailed analysis of the trends in each borough beneath the graph on my micro 
+      page and also that I might consider using a pie chart instead of a bar graph. Moving forward, I 
+      think I will include a more specific analysis on my micro page, but I think I will stick with a 
+      bar graph primarily because the percentages for each borough do not sum to 100 unfortunately, and 
+      I am not sure what the missing percent indicates. </li>
+    <li>
+      * All in all, the final design of these pages on my website did not deviate very much from 
+      my original prototypes. Per the advice of my peer reviewer, on each of my borough pages, I made 
+      the qualitative analysis have more variation when comparing individual borough data to the average 
+      (for example, rather than being either just greater, less than, or equal to the average, data could 
+      be "slightly" or "significantly" greater or less than the average). The other change I made is that 
+      I decided to include on my bar graph bars that display the borough wide average for each type of mode of transportation.  
+    </li>
   </ul>
 </p>
 
