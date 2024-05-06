@@ -37,10 +37,10 @@
       y="{{445-average_bar_y_values[loop.index0]}}">{{label}}%</text>
     {% endfor %}
 
-<text class="text" x="665" y="96">Average Borough Data</text>
-<text class="text" x="665" y="120">Borough Specific Data</text>
-<rect  fill="#89CFF0" x="550" y="85" width="17" height="17"/>
-<rect  fill="blue" x="550" y="107" width="17" height="17"/>
+<text class="text" x="665" y="96">Borough Specific Data</text>
+<text class="text" x="665" y="120">Average Borough Data</text>
+<rect  fill="blue" x="550" y="85" width="17" height="17"/>
+<rect  fill="#89CFF0" x="550" y="107" width="17" height="17"/>
 
 
 
